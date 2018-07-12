@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-var ignoreDir = []string{".git", ".idea"}
+var ignoreList = []string{".git", ".idea", ".DS_Store"}
 
 func main() {
 
@@ -46,7 +46,7 @@ func checkDiff(baseDir, targetDir string, isDifferent *bool) error {
 
 	for _, file := range files {
 
-		if arrayContains(ignoreDir, file.Name()) {
+		if arrayContains(ignoreList, file.Name()) {
 			continue
 		}
 
