@@ -20,7 +20,7 @@ $ touch goCheckDiff.sh
 ```
 
 Write as follows.  
-Change the description of `baseDir` and `targetDir` to the directory you want to check.
+Change the description of `baseDir` and `targetDir` to the directory you want to check.
 
 ```sh
 #!/bin/sh
