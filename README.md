@@ -45,7 +45,7 @@ Execute.
 $ ./goCheckDiff.sh
 ```
 
-The following result is output.
+Results are output to the console.
 
 ```
 2018-07-12 12:24:44 Start.
