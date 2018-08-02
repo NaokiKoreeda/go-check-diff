@@ -6,3 +6,5 @@ baseDir="/Users/NaokiKoreeda/dir1/"
 targetDir="/Users/NaokiKoreeda/dir2/"
 
 ./goCheckDiff ${baseDir} ${targetDir}
+
+read -p "Press [Enter] key to resume."
